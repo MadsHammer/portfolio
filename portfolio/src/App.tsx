@@ -2,6 +2,8 @@ import  ProjectList  from "./components/ProjectList";
 import Navbar from "./components/NavBar";
 import About from "./components/About";
 import Slider from "./components/Slider";
+import { Analytics } from "@vercel/analytics/next"
+
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
 <Slider />
   <ProjectList />
   <About />
+        <Analytics />
+
     </div>
   );
 }

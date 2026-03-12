@@ -20,7 +20,7 @@
     "techStack": [".NET", "C#", "Razor Pages", "SQL", "Entity Framework"],
     "tools": ["Visual Studio", "GitHub", "Simply"],
     "liveUrl": "http://hammershoej.madshammer.dk/",
-    "githubUrl": "https://github.com/MadsHammer/my-react-router-app",
+    "githubUrl": "https://github.com/MadsHammer/Hammershoej",
     "video":  "/videos/hammershoejEntity.mp4",
     "gallery": []
   },

@@ -73,7 +73,7 @@ const Hero = () => {
             {[...techStack, ...techStack].map((tech, i) => (
               <span 
                 key={i} 
-                className="marquee-text-stroke text-3xl lg:text-5xl font-black text-transparent opacity-20 hover:opacity-100 hover:scale-110 transition-all cursor-default uppercase"
+                className="marquee-text-stroke text-3xl lg:text-5xl font-black text-transparent opacity-20 hover:opacity-100 hover:scale-110 transition-all cursor-default uppercase hero-title"
               >
                 {tech}
               </span>

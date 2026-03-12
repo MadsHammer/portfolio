@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "title": "Hammerly",
+    "category": "Hobby",
+    "description": "An app designed for my fiance and I to keep track of our renovation projects in our new house, with a login function...",
+    "techStack": ["ReactJS", "Redux Toolkit", "Tailwind CSS", "SQL"],
+    "tools": ["Visual Studio Code", "Vite", "GitHub", "Supabase", "Vercel"],
+    "liveUrl": "https://my-react-router-app-peach.vercel.app/",
+    "githubUrl": "https://github.com/MadsHammer/my-react-router-app",
+    "video":  "/videos/hammerlyReact.mp4",
+    "gallery": ["/images/hammerly/main.png", "/images/hammerly/login.png", "/images/hammerly/projekt.png", "/images/hammerly/opret.png", "/images/hammerly/opret2.png", "/images/hammerly/database.png"]
+  },
+  
+  {
+    "id": "2",
+    "title": "Hammershøj",
+    "category": "Hobby",
+    "description": "The first iteration of the Hammerly app, in .NET coded in C# with a SQL database, using Entity Framework for database management and Razor Pages for the frontend. The page isnt set up for https so you might get a security warning, but I can assure you its safe to proceed.",
+    "techStack": [".NET", "C#", "Razor Pages", "SQL", "Entity Framework"],
+    "tools": ["Visual Studio", "GitHub", "Simply"],
+    "liveUrl": "http://hammershoej.madshammer.dk/",
+    "githubUrl": "https://github.com/MadsHammer/my-react-router-app",
+    "video":  "/videos/hammershoejEntity.mp4",
+    "gallery": []
+  },
+
+  {
+    "id": "3",
+    "title": "ParkWhere",
+    "category": "Third semester project",
+    "description": "A web application for checking wether a parking lot is full, using a REST Api to fetch data and update available space from a SQL database, and displaying it in a user-friendly interface. Using a Raspberry pi with a camera and Ultrasound Sensor we can look up a license plate through a thirdparty API and add said car to our database and show it in a UX friendly way.",
+    "techStack": ["Vue", "Python", "Bootstrap CSS", "C#", ".NET", "SQL", "Selenium", "Entity Framework"],
+    "tools": ["VS Code","VS", "GitHub", "Vercel", "Raspberry Pi", "Ultrasound Sensor", "Camera", "Azure Rest API", "AI Model", "Unit testing"],
+    "liveUrl": "http://koebmandenellevej.dk/",
+    "githubUrl": "https://github.com/Fjongotongo/ParkWhereEksamen",
+    "video":  "/videos/IMG_8029.mp4",
+    "gallery": ["/images/parkwhere/parkwheremain.png", "/images/parkwhere/ultrasound.jpg", "/images/parkwhere/carstats.png", "/images/parkwhere/database.png", "/images/parkwhere/therobot.jpg"]
+  },
+
+  {
+
+    "id": "4",
+    "title": "Movie App",
+    "category": "School project",
+    "description": "A simple movie app built with React, using the TMDB API to fetch movie data and display it in a user-friendly interface. The app allows users to sort movies by popularity, release date, and rating. A fun little excercise to get familiar with React and API integration.",
+    "techStack": ["React", "Tailwind CSS", "Vite", "Redux Toolkit", "RTK Query"],
+    "tools": ["VS Code", "GitHub", "Vercel", "TMDB API"],
+    "liveUrl": "https://movies-rtk-query.vercel.app/",
+    "githubUrl": "https://github.com/MadsHammer/Movies-RTKQuery"
+  }
+
+
+
+
+  
+]

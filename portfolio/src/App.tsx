@@ -2,7 +2,7 @@ import  ProjectList  from "./components/ProjectList";
 import Navbar from "./components/NavBar";
 import About from "./components/About";
 import Slider from "./components/Slider";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
 <Slider />
   <ProjectList />
   <About />
-        <Analytics />
-
+  <Analytics />
+  
     </div>
   );
 }

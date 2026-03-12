@@ -28,7 +28,7 @@ const ProjectGallery = ({ gallery }: Props) => {
 
   return (
     <div className="relative group/slider mt-4">
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-2">
         <p className="text-xs font-bold uppercase tracking-widest text-gray-400"></p>
         <div className="hidden md:flex gap-2">
           <button onClick={() => scroll('left')} className="p-2 rounded-full cursor-pointer border border-white/10 bg-gray-900 hover:bg-purple-600 transition-colors">
@@ -40,17 +40,17 @@ const ProjectGallery = ({ gallery }: Props) => {
         </div>
       </div>
 
-      <div ref={scrollRef} className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide scroll-smooth">
+      <div ref={scrollRef} className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide scroll-smooth py-2">
         {gallery?.map((img, i) => (
           <div 
             key={i} 
-            className="min-w-[70%] md:min-w-[calc(33.333%-11px)] aspect-square rounded-2xl overflow-hidden border border-white/10 cursor-pointer hover:scale-[1.02] transition-all bg-gray-900 snap-start"
+            className="min-w-[70%] md:min-w-[calc(23%-11px)] md:max-h-[200px] aspect-square rounded-2xl overflow-hidden border border-white/10 cursor-pointer hover:scale-[1.02] transition-all snap-start"
             onClick={() => {
               setIndex(i);
               setOpen(true);
             }}
           >
-            <img src={img} className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" alt="Gallery item" />
+            <img src={img} className="w-full h-full object-cover opacity-100 hover:opacity-70 transition-opacity overflow-hidden" alt="Gallery item" />
           </div>
         ))}
       </div>

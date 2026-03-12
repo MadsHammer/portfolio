@@ -3,8 +3,8 @@
     "id": "1",
     "title": "Hammerly",
     "category": "Hobby",
-    "description": "An app designed for my fiance and I to keep track of our renovation projects in our new house, with a login function...",
-    "techStack": ["ReactJS", "Redux Toolkit", "Tailwind CSS", "SQL"],
+    "description": "An app designed for my fiance and I to keep track of our renovation projects in our new house, with a login function, it is an updated version that sets itself apart from it predecessor with a database migrated onto Supabase and published by Vercel, and of course made in VSCode with React and Redux toolkit",
+    "techStack": ["React", "Redux Toolkit", "Tailwind CSS", "SQL"],
     "tools": ["Visual Studio Code", "Vite", "GitHub", "Supabase", "Vercel"],
     "liveUrl": "https://my-react-router-app-peach.vercel.app/",
     "githubUrl": "https://github.com/MadsHammer/my-react-router-app",
@@ -31,7 +31,7 @@
     "category": "Third semester project",
     "description": "A web application for checking wether a parking lot is full, using a REST Api to fetch data and update available space from a SQL database, and displaying it in a user-friendly interface. Using a Raspberry pi with a camera and Ultrasound Sensor we can look up a license plate through a thirdparty API and add said car to our database and show it in a UX friendly way.",
     "techStack": ["Vue", "Python", "Bootstrap CSS", "C#", ".NET", "SQL", "Selenium", "Entity Framework"],
-    "tools": ["VS Code","VS", "GitHub", "Vercel", "Raspberry Pi", "Ultrasound Sensor", "Camera", "Azure Rest API", "AI Model", "Unit testing"],
+    "tools": ["VS Code","VS", "GitHub", "Vercel", "Raspberry Pi", "Ultrasound Sensor", "Camera", "Azure Rest API", "AI Model", "Unit testing", "Postman"],
     "liveUrl": "http://koebmandenellevej.dk/",
     "githubUrl": "https://github.com/Fjongotongo/ParkWhereEksamen",
     "video":  "/videos/IMG_8029.mp4",
@@ -47,8 +47,25 @@
     "techStack": ["React", "Tailwind CSS", "Vite", "Redux Toolkit", "RTK Query"],
     "tools": ["VS Code", "GitHub", "Vercel", "TMDB API"],
     "liveUrl": "https://movies-rtk-query.vercel.app/",
-    "githubUrl": "https://github.com/MadsHammer/Movies-RTKQuery"
+    "githubUrl": "https://github.com/MadsHammer/Movies-RTKQuery",
+    "video":  "/videos/movie.mp4"
+  },
+
+  {
+    "id":"5",
+    "title": "Zeaway",
+    "category": "Second semester project",
+    "description": "A C# based app, which uses Entity FrameWork with an SQL database to withhold information of users and cars. The whole idea is that people need to be able to drive together to school to be more viable, users are able to create their own cars and create trips, which other users are able to join",
+    "techStack": ["Bootstrap CSS", "C#", ".NET", "SQL", "Entity Framework", "Razor Pages"],
+    "tools": ["Visual Studio", "GitHub", "Simply"],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/MadsHammer/Parkeringsplads",
+    "video":  "/videos/zeaway.mp4",
+    "gallery": ["/images/zeaway/login2.png", "/images/zeaway/login.png", "/images/zeaway/Untitled.png", "/images/zeaway/tur.png","/images/zeaway/bigdiagram.png", "/images/zeaway/smalldiagram.png","/images/zeaway/biler.png", "/images/zeaway/rejse.png"]
+    
   }
+
+
 
 
 

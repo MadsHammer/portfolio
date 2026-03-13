@@ -13,7 +13,6 @@
     scrollbar-width: none;  /* Firefox */
   }
 
-  /* This defines the 'animate-marquee' utility for you */
   @keyframes marquee {
     from { transform: translateX(0%); }
     to { transform: translateX(-50%); }
@@ -46,11 +45,8 @@ html {
 }
 
 .marquee-stroke {
-  /* This makes the text hollow */
+ 
   color: transparent;
-  /* Standard webkit stroke */
   -webkit-text-stroke: 1.5px #6366f1;
-  /* THE FIX: Tells the browser to draw the stroke first, 
-     so it doesn't 'fill' the transparent center */
   paint-order: stroke fill;
 }

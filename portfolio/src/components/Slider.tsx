@@ -3,7 +3,7 @@ import { ArrowDown } from 'lucide-react';
 const Hero = () => {
   const techStack = [
     "React", "Redux Toolkit", "Vite", "Tailwind CSS", "Bootstrap", "VS Code", "VUE",
-    ".NET", "C#", "SQL", "Supabase", "Vercel", "GitHub", "RTK Query"
+    ".NET", "C#", "SQL", "Supabase", "Vercel", "GitHub", "RTK Query", "Entity Framework"
   ];
 
   return (
@@ -73,7 +73,7 @@ const Hero = () => {
             {[...techStack, ...techStack].map((tech, i) => (
               <span 
                 key={i} 
-                className="marquee-text-stroke text-3xl lg:text-5xl font-black text-transparent opacity-20 hover:opacity-100 hover:scale-110 transition-all cursor-default uppercase hero-title"
+                className="marquee-text-stroke text-3xl lg:text-3xl font-black text-transparent opacity-20 hover:opacity-100 hover:scale-110 transition-all cursor-default uppercase hero-title"
               >
                 {tech}
               </span>

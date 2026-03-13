@@ -19,7 +19,7 @@ const ProjectList = () => {
             <div className="flex flex-col lg:flex-row gap-12 items-center">
               <div className="w-full lg:w-4/12">
                 <div className="flex items-center gap-4 mb-4">
-                  <span className="text-2xl font-bold text-indigo-500">0{index + 1}</span>
+                  <span className="text-2xl font-bold text-indigo-500">0{index + 1}.</span>
                   <div className="flex justify-end w-24 border-t-4 border-dotted border-indigo-200 h-0 "></div>
                 </div>
                 <h5 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 ">{project.title}</h5>

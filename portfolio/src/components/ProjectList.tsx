@@ -12,7 +12,7 @@ const ProjectList = () => {
     <section id="projects" className="bg-gray-50">
     <div className="max-w-6xl custom-max-width mx-auto px-6 py-20">
       <div className="flex flex-col gap-32">
-        {projects?.map((project: Project, index: number) => (
+        {projects?.map((project: Project, index: number, ) => (
           <div key={project.id} className="flex flex-col  border-b border-gray-200 pb-20">
            
             {/* Top Section: Text & Main Video */}
@@ -21,6 +21,9 @@ const ProjectList = () => {
                 <div className="flex items-center gap-4 mb-4">
                   <span className="text-2xl font-bold text-indigo-500">0{index + 1}.</span>
                   <div className="flex justify-end w-24 border-t-4 border-dotted border-indigo-200 h-0 "></div>
+                 <span className="uppercase tracking-wider text-sm font-medium text-gray-500">
+  {project.category}
+</span>
                 </div>
                 <h5 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 ">{project.title}</h5>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">{project.description}</p>

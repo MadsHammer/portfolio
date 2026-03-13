@@ -13,7 +13,7 @@ const Hero = () => {
           
           <div className="lg:col-span-7 flex flex-col gap-8">
             <div className="flex items-center gap-4">
-              <div className="h-[2px] w-12 bg-indigo-600"></div>
+              <div className="flex justify-end w-24 border-t-4 border-dotted border-indigo-200 h-0 "></div>
               <span className="text-sm font-bold tracking-[0.3em] text-indigo-600 uppercase">Portfolio</span>
             </div>
 

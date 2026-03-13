@@ -10,8 +10,7 @@ const About = () => {
           <div>
             <div className="flex items-center gap-4 mb-8">
               <span className="text-2xl font-bold text-indigo-200">ABOUT.</span>
-              <div className="h-[2px] w-24 bg-indigo-400"></div>
-            </div>
+<div className="flex justify-end w-24 border-t-4 border-dotted border-indigo-200 h-0 "></div>            </div>
             
             <h2 className="text-3xl lg:text-5xl font-light mb-8 tracking-tighter uppercase"> 
               Just who is <span className=" font-black text-5xl lg:text-8xl"><br></br>Mads Hammer?</span>

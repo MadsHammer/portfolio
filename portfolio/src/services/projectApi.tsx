@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export interface Project {
   id: string;
@@ -10,17 +10,17 @@ export interface Project {
   liveUrl: string;
   githubUrl: string;
   video: string;
-    gallery: string[];
+  gallery: string[];
 }
 
 export const projectApi = createApi({
-  reducerPath: 'projectApi',
-  baseQuery: fetchBaseQuery({ baseUrl: '/' }), 
+  reducerPath: "projectApi",
+  baseQuery: fetchBaseQuery({ baseUrl: "/" }),
   endpoints: (builder) => ({
     // 2. Add Types to the query: <ResultType, QueryArgType>
     // We expect an Array of Projects, and we pass no arguments (void)
     getProjects: builder.query<Project[], void>({
-      query: () => 'data/projects.json',
+      query: () => "data/projects.json",
     }),
   }),
 });

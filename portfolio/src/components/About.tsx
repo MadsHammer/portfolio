@@ -118,7 +118,7 @@ const About = () => {
 
               {/* LINKEDIN */}
               <a
-                href="https://linkedin.com/in/your-profile"
+                href="https://www.linkedin.com/in/mads-hammer-5a927a171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noreferrer"
                 className="group flex items-center justify-between p-6 bg-white/10 backdrop-blur-md rounded-2xl hover:bg-white hover:scale-[1.02] transition-all duration-300"
